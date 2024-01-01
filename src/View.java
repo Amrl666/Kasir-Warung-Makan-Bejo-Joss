@@ -21,7 +21,7 @@ public class View {
 
     public View() {
         // Buat jendela GUI
-        frame = new JFrame("Kasir Warung Makan");
+        frame = new JFrame("Kasir Warung Makan Bejo Joss");
         frame.setSize(400, 300);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
