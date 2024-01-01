@@ -8,10 +8,13 @@ public class Kasir  {
 
     private Kasir() {
         daftarMenu = new ArrayList<>();
-        daftarMenu.add(new Menu("Ayam Geprek Matah (14K)", 14000));
-        daftarMenu.add(new Menu("Ayam Goreng Kremes (15K)", 15000));
-        daftarMenu.add(new Menu("Nasi Goreng (10K)", 10000));
-        daftarMenu.add(new Menu("Soto Ayam (12K)", 12000));
+        daftarMenu.add(new Menu("Ayam Geprek Sambel Matah (16K)", 16000));
+        daftarMenu.add(new Menu("Ayam Geprek Asam Manis (16K)", 16000));
+        daftarMenu.add(new Menu("Ayam Geprek Krispi (14K)", 14000));
+        daftarMenu.add(new Menu("Telur Geprek Sambel Matah (11K)", 11000));
+        daftarMenu.add(new Menu("Telur Geprek Asam Manis (11K)", 11000));
+        daftarMenu.add(new Menu("Telur Geprek Sambel Matah (14K)", 11000));
+        daftarMenu.add(new Menu("Ayam Geprek Krispi (9K)", 9000));
     }
 
     public static Kasir getInstance() {
