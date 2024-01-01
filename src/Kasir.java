@@ -14,7 +14,9 @@ public class Kasir  {
         daftarMenu.add(new Menu("Telur Geprek Sambel Matah (11K)", 11000));
         daftarMenu.add(new Menu("Telur Geprek Asam Manis (11K)", 11000));
         daftarMenu.add(new Menu("Telur Geprek Sambel Matah (14K)", 11000));
-        daftarMenu.add(new Menu("Ayam Geprek Krispi (9K)", 9000));
+        daftarMenu.add(new Menu("Telur Geprek Krispi (9K)", 9000));
+        daftarMenu.add(new Menu("Nasi Goreng Bakso (12K)", 12000));
+        daftarMenu.add(new Menu("Nasi Goreng Ayam (14K)", 14000));
     }
 
     public static Kasir getInstance() {
